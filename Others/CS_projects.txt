@@ -1,0 +1,54 @@
+Jonathan Raiman										Prof: Art Lee
+						┌─────────────────────┐
+						│  CS FINAL PROJECTS  │
+						└─────────────────────┘ 
+
+						Two potential projects:
+
+1.  Use file parsing on Json, xml, or txt files to create a world,
+	and a small adventure game.
+
+	i. Put location data and other keys in a non-predictable way
+	and build objects on different subclasses.
+
+	ii. The data from these 'objects' is then served to map
+	displayed on screen using simple gif, jpeg and Java2D assets
+	to represent a world.
+
+	iii. World is interactive : Places can be clicked and modified.
+	Values are written to xml file on exit to save world.
+
+	iv. Blank xml file does not cause IO error : it cause a blank
+	world with the option to build a new xml file from scratch using
+	simple options.
+
+	v. Have a main character quest, a pathing algorithm for characters
+	and (hopefully) a method to	display a subset of the full map at
+	any one time to allow motion.
+
+	Using: File IO, Java2D, XML Syntax or Json Syntax, My pathing
+		   algorithm (n^2 efficiency), user input using arrowkeys
+		   or mouse without console to 'immerse' player.
+
+2.  Create a website template using objects, hierarchy, and file
+	generation.
+
+	i. Build syntax-correct html files with content sourced from
+	outside files or from user input at	runtime.
+
+	ii. Build css files that make sense : ask questions but not
+	too many and generate file.
+
+	iii. Have strong defaults for a base case.
+
+	iv. Create an image gallery, or blog, with posts (using
+	javascript to serve and alternate images & posts)
+
+	v. Website is saved a .mywebproject file and is later
+	modifiable via the args[0] of the java function	to make
+	changes to document (update it for instance);
+
+	Using: File IO, CSS syntax, HTML Syntax, Javascript Syntax
+		   (simple with lots of shortcuts from Jquery), some 
+		   use of Java2D to preview CSS choices (colors for
+		   instance).
